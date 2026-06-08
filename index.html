@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Learning Management System</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Dashboard</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Learn Anytime, Anywhere</h2>
+        <p>Access courses, track progress, and improve your skills.</p>
+        <button onclick="showMessage()">Get Started</button>
+    </section>
+
+    <section class="courses">
+        <h2>Popular Courses</h2>
+
+        <div class="course-card">
+            <h3>Full Stack Development</h3>
+            <p>Learn HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+            <button onclick="enrollCourse('Full Stack Development')">Enroll</button>
+        </div>
+
+        <div class="course-card">
+            <h3>Python Programming</h3>
+            <p>Master Python from beginner to advanced.</p>
+            <button onclick="enrollCourse('Python Programming')">Enroll</button>
+        </div>
+
+        <div class="course-card">
+            <h3>Data Structures</h3>
+            <p>Understand algorithms and problem solving.</p>
+            <button onclick="enrollCourse('Data Structures')">Enroll</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Learning Management System | Developed by Harini</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
